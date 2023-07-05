@@ -9,8 +9,9 @@ public class Print_N_times {
       return;
     }
 
-    System.out.println("hello " + n);
     printNtimes(n - 1);
+    System.out.println(n);
+
   }
 
   public static void main(String[] args) {
